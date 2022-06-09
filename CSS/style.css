@@ -178,14 +178,17 @@
 .benefits {
    display: flex;
    padding-left: 0;
-   
+  
 }
+
 
 .benefits .items + .items {
     margin-left: 30px;
    
 }
-
+.benefits .items {
+    width: 270px;
+}
 
 
 .benefits h3 {
@@ -206,28 +209,16 @@
     margin-top: 0;
     margin-bottom: 0;   
 }
-.benefits .items::before {
-    height: 120px;
-    content: "";
-    display: block;
-    background-repeat: no-repeat;
-    background-position: center;
+.benefits .icon {
+    display: inline-flex;
     background-color: #F5F4FA;
+    height: 120px;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
-    
 }
-.group::before {
-    background-image: url(../images/Group.svg);
-}
-.clock::before {
-    background-image: url(../images/clock\ 1.svg);
-}
-.diagram::before {
-    background-image: url(../images/diagram\ 1.svg);
-}
-.astronaut::before {
-    background-image: url(../images/astronaut\ 1.svg);
-}
+
 .work {
     margin-bottom: 94px;
 }
