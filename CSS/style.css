@@ -282,7 +282,7 @@ img {
 }
 .team p {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -308,6 +308,8 @@ img {
 }
 .social-networks {
     display: flex;
+   justify-content: center;
+   padding-left: 0;
 }
 .network {
     display: inline-flex;
@@ -317,14 +319,17 @@ img {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+   
     margin-right: 10px;
 
 }
+
 .social-networks .network:nth-child(4n) {
     margin-right: 0;
 }
 .network .icon {
+    
+   
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
@@ -415,7 +420,9 @@ img {
     display: flex;
 }
 .request {
-    margin-left: 70px;
+   
+    margin-top: 0;
+    margin-bottom: 20px;
 
     text-transform: uppercase;
     font-weight: 700;
@@ -425,10 +432,10 @@ img {
     color: #FFFFFF;
     
 }
-.add-2 {
+.social-networks-section {
     margin-left: 70px;
-    padding-left: 0px;
 }
+
 .section .button-portfolio {
     display: flex;
     justify-content: center;
